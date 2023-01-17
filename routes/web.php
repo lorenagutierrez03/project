@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/factorialre', function () {
+    return view('Factorialre');
+});
+
+Route::post('/factorial/index', 'FactorialreController@index')->name('factorialre.index');
