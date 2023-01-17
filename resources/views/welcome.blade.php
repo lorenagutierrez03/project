@@ -55,5 +55,21 @@
       </style>
     </head>
     <body>
+      <div class="content">
+        <div class="title m-b-md" style="font-size: 30px; margin-top:30px; ">
+           <b>EJERCICIOS 
+            ALGORITMICOS</b>  
+          <img src="{{ asset('storage/img/al.gif')}}" class="card-img-top" alt="" style="height:50px; width:100px;">
+
+        </div>
+
+
+        <div class="card" style="width: 17rem; padding-right:37px; margin: auto; background-color:rgb(255, 255, 255)">
+            <img src="{{ asset('storage/img/fibonnaci.jpg')}}" class="card-img-top" alt="" style="padding-left:18px;">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size:20px;">Fibonacci</h5>
+              <a href="/fibonacci" class="btn btn-primary">¡Vamos!</a>
+            </div>
+          </div>
     </body>
 </html>
