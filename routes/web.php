@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/factorizacion', function () {
+    return view('Factorizacion');
+});
+
+Route::post('/factorizacion/index', 'FactorizacionController@index')->name('factorizacion.index');
