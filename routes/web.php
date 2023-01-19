@@ -20,5 +20,5 @@ Route::get('/palindromo', function () {
     return view('Palindromo');
 });
 
-Route::post('/palindromo/index', 'PalindromoController@index')->name('palindromo.index');
+Route::post('/palindromo', 'PalindromoController@index')->name('palindromo');
 
