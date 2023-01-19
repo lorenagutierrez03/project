@@ -21,4 +21,4 @@ Route::get('/factorizacion', function () {
     return view('Factorizacion');
 });
 
-Route::post('/factorizacion/index', 'FactorizacionController@index')->name('factorizacion.index');
+Route::post('/factorizacion', 'FactorizacionController@index')->name('factorizacion');
