@@ -10,10 +10,10 @@
 
    
 </head>
-<body style="background-image: url('storage/img/fondo2.webp');">
-  <div class="container text-center">
-    <h1 class="my-5 ">Serie de Fibonacci</h1>
-    <img src="{{ asset('storage/img/fibonnaci.jpg')}}" class="card-img-top" alt="" style="width:150px; height:100px;">
+<body style=" background-image: url('storage/img/fondo2.webp');">
+  <div class="container text-center" style=" margin-top:195px;">
+    <h1 class="my-5 " style="font-size:60px;">Serie de Fibonacci</h1>
+    <img src="{{ asset('storage/img/Fibonacci.webp')}}" class="card-img-top" alt="" style="width:380px; height:200px;">
 
 
     <form action={{route('fibonacci')}} method="POST">
@@ -21,11 +21,11 @@
         @method('POST')
 
     <div class="mb-3"><br> 
-        <label for="num_fibonacci" class="form-label">Numero Fibonacci:</label><br>
+        <label for="num_fibonacci" class="form-label" style="font-size:25px; ">Numero Fibonacci:</label><br>
         <input type="text" class="form-control" id="num_fibonacci" name="num_fibonacci" placeholder="Escribe un número">
       </div>
       <div class="mb-3">
-       <button type="submit" class="btn btn-primary">Imprimir serie</button>
+       <button type="submit" class="btn btn-primary" style="background-color: #ffff00 ; color:#000000 ; font-size:17px; border:none;">Imprimir serie</button>
       </div>
 
       <a href="/" class="btn btn-secundary">Volver</a>
@@ -35,7 +35,7 @@
 
 
   @if (isset($fibonacci))
-  <label id="num_fibonacci" style="" >Resultado: {{$fibonacci}}</label>
+  <label id="num_fibonacci" style="padding-left: 700px; font-size:25px; margin-top:40px;" >Resultado: {{$fibonacci}}</label>
   @endif
 
 

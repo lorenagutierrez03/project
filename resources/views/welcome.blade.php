@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Ejercicios</title>
+        <title>Fibonacci</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -12,64 +12,15 @@
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
 
       <!-- Styles -->
-      <style>
-          html, body {
-              background-color: rgb(217, 178, 178);
-              color: #000000;
-              font-family: 'Nunito', sans-serif;
-              font-weight: 200;
-              height: 100vh;
-              margin: 0;
-          }
-
-
       
-
-          .position-ref {
-              position: relative;
-          }
-
-          .top-right {
-              position: absolute;
-              right: 10px;
-              top: 18px;
-          }
-
-          .content {
-              text-align: center;
-          }
-
-          .title {
-              font-size: 84px;
-          }
-
-  
-
-          .m-b-md {
-              margin-bottom: 30px;
-              
-          }
-          .btn-primary{
-              background-color: #bd79b0
-          }
-      </style>
     </head>
-    <body>
-      <div class="content">
-        <div class="title m-b-md" style="font-size: 30px; margin-top:30px; ">
-           <b>EJERCICIOS 
-            ALGORITMICOS</b>  
-          <img src="{{ asset('storage/img/al.gif')}}" class="card-img-top" alt="" style="height:50px; width:100px;">
-
-        </div>
-
-
-        <div class="card" style="width: 17rem; padding-right:37px; margin: auto; background-color:rgb(255, 255, 255)">
-            <img src="{{ asset('storage/img/fibonnaci.jpg')}}" class="card-img-top" alt="" style="padding-left:18px;">
+    <body style=" background-image: url('storage/img/fondo.webp');">
+        <div class="card" style="width: 690px; padding-right:37px; display: block; margin: auto; margin-top:300px; background-color:rgb(255, 255, 255)">
+            <img src="{{ asset('storage/img/mate.jpg')}}" class="card-img-top" alt="" style="padding-left:18px;">
             <div class="card-body">
-              <h5 class="card-title" style="font-size:20px;">Fibonacci</h5>
-              <a href="/fibonacci" class="btn btn-primary">¡Vamos!</a>
+              <h5 class="card-title" style="font-size:50px; text-align:center;">Serie de Fibonacci</h5>
+              <a href="/fibonacci"  class="btn btn-primary" style=" font-size:35px; background-color: #ffff00; color:#000000 ; font-size:26px; border:none; ">¡Vamos!</a>
             </div>
-          </div>
+        </div>
     </body>
 </html>
