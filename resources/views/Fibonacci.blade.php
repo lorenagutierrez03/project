@@ -10,13 +10,13 @@
 
    
 </head>
-<body>
+<body style="background-image: url('storage/img/fondo2.webp');">
   <div class="container text-center">
     <h1 class="my-5 ">Serie de Fibonacci</h1>
     <img src="{{ asset('storage/img/fibonnaci.jpg')}}" class="card-img-top" alt="" style="width:150px; height:100px;">
 
 
-    <form action={{route('fibonacci.index')}} method="POST">
+    <form action={{route('fibonacci')}} method="POST">
       @csrf
         @method('POST')
 

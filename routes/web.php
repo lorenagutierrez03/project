@@ -21,4 +21,4 @@ Route::get('/fibonacci', function () {
     return view('Fibonacci');
 });
 
-Route::post('/fibonacci/index', 'FibonacciController@index')->name('fibonacci.index');
+Route::post('/fibonacci', 'FibonacciController@index')->name('fibonacci');
