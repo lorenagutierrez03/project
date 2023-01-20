@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
 </head>
 <body >
-<body style=" background-image: url('storage/img/fondo2.webp');">
+<body style=" background-image: url('storage/img/letras.webp');">
   <div class="container text-center" style=" margin-top:195px;">
     <h1 class="my-5 " style="font-size:60px;">Palíndromo</h1>
     <img src="{{ asset('storage/img/palindromo.png')}}" class="card-img-top" alt="" style="width:380px; height:200px;">
