@@ -20,4 +20,4 @@ Route::get('/factorialre', function () {
     return view('Factorialre');
 });
 
-Route::post('/factorial/index', 'FactorialreController@index')->name('factorialre.index');
+Route::post('/factorial', 'FactorialreController@index')->name('factorialre');

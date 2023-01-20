@@ -27,7 +27,7 @@ class FactorialreController extends Controller
                     
         
        
-    //}
-}// return view('Factorialre', compact('factorial')); 
+    }
+}/return view('Factorialre', compact('factorial')); 
   
 }
