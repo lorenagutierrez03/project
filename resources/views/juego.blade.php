@@ -7,10 +7,10 @@
     <title>Juego Simón Dice</title>
   
 </head>
-<style>  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<style>  
 button{
-    width:300px;
-    height:300px;
+    width:400px;
+    height:400px;
     border-radius:20px;
     border:none;
 }
