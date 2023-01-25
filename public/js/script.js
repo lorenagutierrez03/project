@@ -15,12 +15,12 @@ class Simon {
             startButton,
             round
         }
-        this.errorSound = new Audio('./img/error.wav');
+        this.errorSound = new Audio('storage/img/error.mp3');
         this.buttonSounds = [
-            new Audio('./img/rojo.ogg'),
-            new Audio('./img/amarillo.ogg'),
-            new Audio('./img/azul.ogg'),
-            new Audio('./img/verde.ogg'),
+            new Audio('storage/img/1.mp3'),
+            new Audio('storage/img/2.mp3'),
+            new Audio('storage/img/3.mp3'),
+            new Audio('storage/img/4.mp3'),
         ]
     }
 

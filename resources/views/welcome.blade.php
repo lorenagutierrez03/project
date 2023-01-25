@@ -15,7 +15,7 @@
     <body  style=" background-image: url('storage/img/vj.jpg');">
        <div class="class" style="padding-left:550px; margin-top:150px;">
     <div class="card" style="width: 800px; height:600px;  background:#000000; ">
-    <h5 class="card-title" style="text-align:center; font-size:40px; color:#ffffff;">Bienvenido al juego : Simón Dice...</h5>
+    <h5 class="card-title" style="text-align:center; font-size:40px; color:#FFC0CB;">Bienvenido al juego : Simón Dice...</h5>
   <img src="{{ asset('storage/img/simon.gif')}}" class="card-img-top" alt="...">
   <div class="card-body" style="padding-left:360px;">   
     <a href="juego" class="btn btn-primary" style="background:#ffffff; border:none; color:#000000; font-size:28px;">Vamos!</a>

@@ -1,5 +1,4 @@
 body {
-    background-image: url('public/img/videoj.webp');
     font-family: 'VT323';
     display: inline-grid;
     place-items: center;
@@ -25,7 +24,7 @@ margin-left: 5px;
 }
 
 .button {
-    border-radius: 5px;
+    border-radius: 55px;
     width: 250px;
     height: 250px;
     cursor: pointer;
@@ -53,27 +52,28 @@ margin-left: 5px;
 }
 
 #startButton {
-    width: 75px;
+    width: 125px;
+    height: 70px;
     position: relative;
     top: 10px;
     right: 10px;
     border: none;
-    font-family: 'Merriweather', serif;
+    font-family: 'VT323';
     cursor: pointer;
-    border-radius: 5px;
-    color: #fff;
-    background-color: #587792;
+    border-radius: 15px;
+    color: #FFC0CB;
+    background-color: #000000;
     padding: 5px;
+    font-size: 25px;
 }
 
 #startButton:disabled {
     background-color: #eee;
 }
 
-.title {
-    width: min-content;
+#round{
+    font-size: 50px;
 }
-
 .winner {
     animation: spin 1s ease-in-out;
 }

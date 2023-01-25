@@ -9,8 +9,11 @@
     <link href="/css/style.css" rel="stylesheet" />
     <script src="/js/script.js" type="text/javascript" defer></script>
 </head>
-<body style="" >
-    <h1 id="title">Simón dice...</h1>
+<body >
+<body style=" background-image: url('storage/img/videoj.webp');">
+
+    <h1 id="title" style=" background-image: url('storage/img/blanco.jpg'); color:#FFC0CB; font-size:40px;">COMENCEMOS!    |    SIMÓN DICE...</h1>
+
     <div class="simon">
       
         
