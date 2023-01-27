@@ -6,8 +6,7 @@ use Illuminate\Http\Request;
 
 class JuegoController extends Controller
 {
-    return view('juego'){
-
+  public function getPulsa($pulsa){
+return response()->json(['pulsa' => $pulsa]);
     }
 }
-ibo

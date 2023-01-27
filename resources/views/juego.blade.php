@@ -12,7 +12,7 @@
 <body >
 <body style=" background-image: url('storage/img/videoj.webp');">
 
-    <h1 id="title" style=" background-image: url('storage/img/blanco.jpg'); color:#FFC0CB; font-size:40px;">COMENCEMOS!    |    SIMÓN DICE...</h1>
+    <h1 id="title" style=" background-image: url('storage/img/blanco.jpg'); color:#FFC0CB; font-size:40px;"> COMENCEMOS!    |    SIMÓN DICE...  </h1>
 
     <div class="simon">
       
@@ -28,6 +28,11 @@
     
         <div id="round"></div>
     </div>
-    <button id="startButton">Pulsa para comenzar!</button>
+    <button id="startButton" onclick="pulsa()">Pulsa para comenzar!</button>
+    <script>
+  function pulsa() {
+    alert('Se ha dado clic al botón!');
+  }
+</script>
 </body>
 </html>

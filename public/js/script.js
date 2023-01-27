@@ -2,6 +2,14 @@ const round = document.getElementById('round');
 const simonButtons = document.getElementsByClassName('button');
 const startButton = document.getElementById('startButton');
 
+function game(){
+    let pulsa;
+    fetch('http://127.0.0.1:8000/api/...').then(response => response.json()).then((data) => {console.log(data, data.pulsa)
+    pulsa = data.pulsa
+    alert("Hola" + data.pulsa)
+})
+}
+
 class Simon {
     constructor(simonButtons, startButton, round) {
         this.round = 0;

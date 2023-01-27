@@ -14,6 +14,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::middleware('auth:api')->get('/user', function (Request $request) {
-  //  return $request->user();
+//Route::middleware('auth:api')->get('/pulsa', function (Request $request) {
+ // return $request->pulsa();
+//});
+
+Route::get('/get-pulsa/{pulsa}', 'JuegoController@getPulsa');
+
+//Route::get('juegos/{round}', function(){
+ // return Juego::find(round);
+//});
+
+//Route::post('juegos', function(Request $request){
+ // return Juego::create($request->all);
 //});
