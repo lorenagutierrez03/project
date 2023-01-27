@@ -10,3 +10,4 @@ class JuegoController extends Controller
 
     }
 }
+ibo
