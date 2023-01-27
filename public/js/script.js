@@ -101,7 +101,7 @@ class Simon {
             sequenceIndex++;
             if (sequenceIndex > this.round) {
                 this.blockedButtons = false;
-                clearInterval(timer);
+                clearInterval(timer);   
             }
         }, this.speed);
     }
